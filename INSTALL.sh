@@ -21,13 +21,13 @@ if [ "$(whoami)" == "root" ]; then
 	rm -rf .github/
 	rm -rf README.md
 
-	mkdir -p /opt/xfce_dynamic_wallpaper/
-	yes | cp -rf src/backgrounds/ /opt/xfce_dynamic_wallpaper/
+	mkdir -p /opt/xfce-dynamic-wallpaper/
+	yes | cp -rf src/backgrounds/ /opt/xfce-dynamic-wallpaper/
 
-	g++ src/main.cpp -o /opt/xfce_dynamic_wallpaper/xfce_dynamic_wallpaper
+	g++ src/main.cpp -o /opt/xfce-dynamic-wallpaper/xfce-dynamic-wallpaper
 
 	mkdir -p /home/$SUDO_USER/.config/autostart/
-	yes | cp -rf src/autostart.desktop /home/$SUDO_USER/.config/autostart/xfce_dynamic_wallpaper.desktop
+	yes | cp -rf src/autostart.desktop /home/$SUDO_USER/.config/autostart/xfce-dynamic-wallpaper.desktop
 
 	echo "Please restart the computer !"        
 else

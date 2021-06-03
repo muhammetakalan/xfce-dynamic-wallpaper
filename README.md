@@ -8,15 +8,15 @@
 
 # Screenshot
 <p align="center">
-	<img src=".github/dynamic_wallpaper.jpg"/>
+	<img src=".github/dynamic-wallpaper.jpg"/>
 </p>
 
 # Install
 ```
-$ git clone https://github.com/05akalan57/xfce_dynamic_wallpaper.git
+$ git clone https://github.com/05akalan57/xfce-dynamic-wallpaper.git
 ```
 ```
-$ cd xfce_dynamic_wallpaper/
+$ cd xfce-dynamic-wallpaper/
 ```
 ```
 $ sudo ./INSTALL.sh
