@@ -3,4 +3,4 @@ Encoding=UTF-8
 Version=1.0
 Type=Application
 Name=xfce-dynamic-wallpaper
-Exec=/opt/xfce-dynamic-wallpaper/xfce-dynamic-wallpaper
+Exec=bash -c "$HOME/.xfce-dynamic-wallpaper/xfce-dynamic-wallpaper.sh default"
