@@ -11,7 +11,7 @@
 	<img src=".github/dynamic-wallpaper.jpg"/>
 </p>
 
-# Install
+# Install as user
 ```
 $ git clone https://github.com/05akalan57/xfce-dynamic-wallpaper.git
 ```
@@ -19,7 +19,7 @@ $ git clone https://github.com/05akalan57/xfce-dynamic-wallpaper.git
 $ cd xfce-dynamic-wallpaper/
 ```
 ```
-$ sudo ./INSTALL.sh
+$ ./INSTALL_USER.sh
 ```
 
 ### After installation, please restart the computer !!
