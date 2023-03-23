@@ -13,7 +13,7 @@
 
 # Install as user
 ```
-$ git clone https://github.com/juampe/xfce-dynamic-wallpaper.git
+$ git clone https://github.com/05akalan57/xfce-dynamic-wallpaper.git
 ```
 ```
 $ cd xfce-dynamic-wallpaper/
