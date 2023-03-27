@@ -20,7 +20,7 @@ do
 	for WORKSPACE in $WORKSPACES
 	do
 		#Get hour and use as dynamic bg
-		HOUR=$(date '+%k')
+		HOUR=$(date '+%k' | tr -d ' ')
 		BACKGROUND="$HOME/.xfce-dynamic-wallpaper/backgrounds/$THEME-$HOUR.jpg"
 		xfconf-query -c xfce4-desktop -p "$WORKSPACE" -s "$BACKGROUND"
 	done
